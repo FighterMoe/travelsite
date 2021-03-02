@@ -1,0 +1,7 @@
+@define-mixin clearboth {
+    &::after {
+        display: "table";
+        content: "";
+        clear: both;
+    }
+}

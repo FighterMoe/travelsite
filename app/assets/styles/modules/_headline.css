@@ -1,0 +1,24 @@
+.headline {
+    color: $mainBlue;
+    font-weight: 300;
+    font-size: 2.875rem;
+
+    &--narrow {
+        max-width: 31.25rem;
+        margin: .5em auto 1.6em;
+        
+    }
+
+    &--orange {
+        color: $mainOrange;
+    }
+
+    &--light {
+        font-weight: 200;
+        font-size: 1.875rem;
+    }
+
+    &--centered {
+        text-align: center;
+    }
+}

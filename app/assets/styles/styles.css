@@ -1,0 +1,13 @@
+/* Css normalization */
+@import "normalize.css";
+
+/* From base folder */
+@import "./base/_variables";
+@import "./base/_main";
+@import "./base/_mixins";
+
+/* From modules folder */
+@import "./modules/_btn";
+@import "./modules/_large-hero";
+@import "./modules/_headline";
+@import "./modules/_page-section";
